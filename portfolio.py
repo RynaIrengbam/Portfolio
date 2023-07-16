@@ -20,14 +20,14 @@ st.header("Education")
 df = {'Education':['B.Sc Mathematics','M.Sc Mathematics'],'University':['Kirori Mal College, Delhi University','Jesus and Mary College, Delhi University'],'Year':['2020-2022','2017-2020'],'CGPA':['9.048','9.432']}
 st.table(df)
 
-st.columns(5)
+columns = st.columns(5)
 st.header("Skills")
-st.columns[0].button("MS Office")
-st.columns[1].button("Advanced Excel(VBA)")
-st.columns[2].button("Tableau")
-st.columns[3].button("Power BI")
-st.columns[4].button("MS SQL")
-st.columns[5].button("Python")
+columns[0].button("MS Office")
+columns[1].button("Advanced Excel(VBA)")
+columns[2].button("Tableau")
+columns[3].button("Power BI")
+columns[4].button("MS SQL")
+columns[5].button("Python")
 
 st.header("Projects")
 
