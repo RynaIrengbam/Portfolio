@@ -20,8 +20,8 @@ st.header("Education")
 df = {'Education':['B.Sc Mathematics','M.Sc Mathematics'],'University':['Kirori Mal College, Delhi University','Jesus and Mary College, Delhi University'],'Year':['2020-2022','2017-2020'],'CGPA':['9.048','9.432']}
 st.table(df)
 
-columns = st.columns(5)
 st.header("Skills")
+columns = st.columns(5)
 columns[0].button("MS Office")
 columns[1].button("Advanced Excel(VBA)")
 columns[2].button("Tableau")
