@@ -13,7 +13,7 @@ with st.sidebar:
     components.html(embed_component['linkedin'],height=310)
 st.sidebar.caption("Wish to connect")
 st.sidebar.write("📧: rynairengbam@gmail.com")
-pdfFileObj = open('C:\My Stuff\Resume\Ryna I CV.pdf','rb')
+pdfFileObj = open('Ryna I CV.pdf','rb')
 st.sidebar.download_button('Download Resume',pdfFileObj,file_name='Ryna I CV.pdf',mime='pdf')
 
 st.header("Education")
