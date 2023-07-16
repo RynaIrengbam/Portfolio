@@ -26,8 +26,8 @@ st.columns[0].button("MS Office")
 st.columns[1].button("Advanced Excel(VBA)")
 st.columns[2].button("Tableau")
 st.columns[3].button("Power BI")
-st.columns[4]button("MS SQL")
-st.columns[5]button("Python")
+st.columns[4].button("MS SQL")
+st.columns[5].button("Python")
 
 st.header("Projects")
 
