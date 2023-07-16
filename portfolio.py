@@ -21,7 +21,7 @@ df = {'Education':['B.Sc Mathematics','M.Sc Mathematics'],'University':['Kirori 
 st.table(df)
 
 st.header("Skills")
-columns = st.columns(5)
+columns = st.columns(6)
 columns[0].button("MS Office")
 columns[1].button("Advanced Excel(VBA)")
 columns[2].button("Tableau")
