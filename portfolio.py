@@ -17,7 +17,7 @@ pdfFileObj = open('Ryna I CV.pdf','rb')
 st.sidebar.download_button('Download Resume',pdfFileObj,file_name='Ryna I CV.pdf',mime='pdf')
 
 st.header("Education")
-df = {'Education':['B.Sc Mathematics','M.Sc Mathematics'],'University':['Kirori Mal College, Delhi University','Jesus and Mary College, Delhi University'],'Year':['2020-2022','2017-2020'],'CGPA':['9.048','9.432']}
+df = {'Education':['M.Sc Mathematics','B.Sc Mathematics'],'University':['Kirori Mal College, Delhi University','Jesus and Mary College, Delhi University'],'Year':['2020-2022','2017-2020'],'CGPA':['9.048','9.432']}
 st.table(df)
 
 st.header("Skills")
