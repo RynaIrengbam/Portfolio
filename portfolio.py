@@ -13,8 +13,8 @@ with st.sidebar:
     components.html(embed_component['linkedin'],height=310)
 st.sidebar.caption("Wish to connect")
 st.sidebar.write("📧: rynairengbam@gmail.com")
-pdfFileObj = open('Ryna I CV.pdf','rb')
-st.sidebar.download_button('Download Resume',pdfFileObj,file_name='Ryna I CV.pdf',mime='pdf')
+pdfFileObj = open('Ryna CV.pdf','rb')
+st.sidebar.download_button('Download Resume',pdfFileObj,file_name='Ryna CV.pdf',mime='pdf')
 
 st.header("Education")
 df = {'Education':['M.Sc Mathematics','B.Sc Mathematics'],'University':['Kirori Mal College, Delhi University','Jesus and Mary College, Delhi University'],'Year':['2020-2022','2017-2020'],'CGPA':['9.048','9.432']}
