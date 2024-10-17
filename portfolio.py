@@ -1,4 +1,4 @@
-import streamlit as st
+bedimport streamlit as st
 import pandas as pd
 from PIL import Image
 import streamlit.components.v1 as components
@@ -7,9 +7,9 @@ st.set_page_config('Ryna\'s Portfolio', layout='wide')
 st.header("Summary")
 st.write("An aspiring Data Scientist pursuing an MA in Statistics at Columbia University. An M.Sc in Mathematics with a strong academic record and a passion for leveraging analytical skills to drive data-driven insights. Experienced in due diligence, and portfolio management. Skilled in developing robust web applications, creating analytical dashboards, and conducting exploratory data analysis. Adept at collaborating with cross-functional teams to deliver innovative solutions. I possess skills in software such as MS Office, Advanced Excel, Tableau, PowerBI, MS SQL and programming languages like Python.")
 
-linkedin_url = 'https://www.linkedin.com/in/ryna-irengbam-6ba24118b/'
+linkedin_url = 'https://www.linkedin.com/in/ryna-irengbam-6ba24118b/?embed=true'
 with st.sidebar:
-    embed_component=f"""
+    embed_component=f'''
     <iframe
     src="{linkedin_url}"
     width="600"
@@ -17,15 +17,15 @@ with st.sidebar:
     frameborder="0"
     allowfullscreen>
     </iframe>
-    """
+    '''
     components.html(embed_component,height=310)
 st.sidebar.caption("Wish to connect")
 st.sidebar.write("📧: rynairengbam@gmail.com")
 pdfFileObj = open('Resume_Ryna Irengbam.pdf','rb')
-st.sidebar.download_button('Download Resume',pdfFileObj,file_name='Ryna CV.pdf',mime='pdf')
+st.sidebar.download_button('Download Resume',pdfFileObj,file_name='RynaIrengbam_Resume.pdf',mime='pdf')
 
 st.header("Education")
-df = {'Education':['M.Sc Mathematics','B.Sc Mathematics'],'University':['Kirori Mal College, Delhi University','Jesus and Mary College, Delhi University'],'Year':['2020-2022','2017-2020'],'CGPA':['9.048','9.432']}
+df = {'Education':['MA Statistics','M.Sc Mathematics','B.Sc Mathematics'],'University':['Columbia University','University of Delhi','University of Delhi'],'Year':['2024-2025','2020-2022','2017-2020'],'CGPA':['','4.0','4.0']}
 st.table(df)
 
 st.header("Skills")
