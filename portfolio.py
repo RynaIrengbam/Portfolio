@@ -26,7 +26,7 @@ df = {'Education':['MA Statistics','M.Sc Mathematics','B.Sc Mathematics'],'Unive
 st.table(df)
 
 with open('timeline.json', "r") as f: 
-       data = f.read()    
+       data = json.load(f)    
 st_timeline(data)
 
 st.header("Skills")
