@@ -7,10 +7,18 @@ st.set_page_config('Ryna\'s Portfolio', layout='wide')
 st.header("Summary")
 st.write("An aspiring Data Scientist pursuing an MA in Statistics at Columbia University. An M.Sc in Mathematics with a strong academic record and a passion for leveraging analytical skills to drive data-driven insights. Experienced in due diligence, and portfolio management. Skilled in developing robust web applications, creating analytical dashboards, and conducting exploratory data analysis. Adept at collaborating with cross-functional teams to deliver innovative solutions. I possess skills in software such as MS Office, Advanced Excel, Tableau, PowerBI, MS SQL and programming languages like Python.")
 
+linkedin_url = 'https://www.linkedin.com/in/ryna-irengbam-6ba24118b/'
 with st.sidebar:
-    embed_component={'linkedin':"""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ryna-irengbam-6ba24118b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/ryna-irengbam-6ba24118b?trk=profile-badge">Ryna Irengbam</a></div>
-              """}
-    components.html(embed_component['linkedin'],height=310)
+    embed_component=f"""
+    <iframe
+    src="{linkedin_url}"
+    width="600"
+    height="400"
+    frameborder="0"
+    allowfullscreen>
+    </iframe>
+    """
+    components.html(embed_component,height=310)
 st.sidebar.caption("Wish to connect")
 st.sidebar.write("📧: rynairengbam@gmail.com")
 pdfFileObj = open('Resume_Ryna Irengbam.pdf','rb')
