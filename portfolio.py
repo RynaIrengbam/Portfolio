@@ -9,11 +9,11 @@ st.write("An aspiring Data Scientist pursuing an MA in Statistics at Columbia Un
 
 linkedin_url = 'https://www.linkedin.com/in/ryna-irengbam-6ba24118b/?embed=true'
 with st.sidebar:
-    embed_component=f'''
+    embed_component={'linkedin':'''
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ryna-irengbam-6ba24118b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ryna-irengbam-6ba24118b?trk=profile-badge">Ryna Irengbam</a></div>
-    '''
-    components.html(embed_component,height=310)
+    '''}
+    components.html(embed_component['linkedin'],height=310)
 st.sidebar.caption("Wish to connect")
 st.sidebar.write("📧: rynairengbam@gmail.com")
 pdfFileObj = open('Resume_Ryna Irengbam.pdf','rb')
