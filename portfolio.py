@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 
 st.set_page_config('Ryna\'s Portfolio', layout='wide')
 st.header("Summary")
-st.write(" I am a highly accomplished and detail-oriented professional with a strong academic background in Mathematics. I completed my M.Sc in Mathematics from Kirori Mal College, University of Delhi and my B.Sc (Hons) in Mathematics from Jesus and Mary College, University of Delhi. Currently, I am working as a Management Trainee at Genpact, where I have contributed to creating asset summary reports and conducted due diligence for high-value loans. I also have experience as a Data Analyst Intern at ResoluteAI.in, where I developed a student dropout web app and designed analytical dashboards. Additionally, I have a financial modeling internship experience at Vardhan Consulting Engineers. I possess skills in software such as MS Office, Advanced Excel, Tableau, PowerBI, MS SQL and programming languages like Python.")
+st.write("An aspiring Data Scientist pursuing an MA in Statistics at Columbia University. An M.Sc in Mathematics with a strong academic record and a passion for leveraging analytical skills to drive data-driven insights. Experienced in due diligence, and portfolio management. Skilled in developing robust web applications, creating analytical dashboards, and conducting exploratory data analysis. Adept at collaborating with cross-functional teams to deliver innovative solutions. I possess skills in software such as MS Office, Advanced Excel, Tableau, PowerBI, MS SQL and programming languages like Python.")
 
 with st.sidebar:
     embed_component={'linkedin':"""<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script><div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ryna-irengbam-6ba24118b" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/ryna-irengbam-6ba24118b?trk=profile-badge">Ryna Irengbam</a></div>
@@ -13,7 +13,7 @@ with st.sidebar:
     components.html(embed_component['linkedin'],height=310)
 st.sidebar.caption("Wish to connect")
 st.sidebar.write("📧: rynairengbam@gmail.com")
-pdfFileObj = open('Ryna CV.pdf','rb')
+pdfFileObj = open('Resume_Ryna Irengbam.pdf','rb')
 st.sidebar.download_button('Download Resume',pdfFileObj,file_name='Ryna CV.pdf',mime='pdf')
 
 st.header("Education")
