@@ -2,3 +2,4 @@ pandas
 streamlit
 Pillow
 streamlit-vis-timeline
+json
