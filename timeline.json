@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "start date": {
+        "year": "2022",
+        "month": "9"
+      },
+      "end date": {
+        "year": "2024",
+        "months": "5"
+      },
+      "media": {
+        "url": "https://mma.prnewswire.com/media/611474/med_THH_logo.jpg?p=twitter",
+        "credit": "Genpact"
+      },
+      "text": {
+        "headline": "Management Trainee",
+        "detail": "Assited US private clients in making key financial decisions by crafting Asset Summary Reports, reviewing third-party reports and analyzing market trends"
+      }
+    },
+    {
+      "start date": {
+        "year": "2022",
+        "month": "4"
+      },
+      "end date": {
+        "year": "2022",
+        "months": "7"
+      },
+      "media": {
+        "url": "https://resoluteaisoftware.in/static/media/logo.eebe05c78fec55d8a0b7.webp",
+        "credit": "ResoluteAI.in"
+      },
+      "text": {
+        "headline": "Data Analyst Intern",
+        "detail": "Developed a student dropout prediction app using Python and Streamlit to aid in early intervention strategies for at-risk students and designed analytical dashboards on PowerBI."
+      }
+    },
+    {
+      "start date": {
+        "year": "2019",
+        "month": "9"
+      },
+      "end date": {
+        "year": "2019",
+        "months": "11"
+      },
+      "media": {
+        "url": "https://yt3.googleusercontent.com/ytc/AIdro_n2pXG59dF_7rgbWa2Yek3weEJUoiR6JhLhDxShov0m9Q=s900-c-k-c0x00ffffff-no-rj",
+        "credit": "Vardhan Consulting Engineers"
+      },
+      "text": {
+        "headline": "Financial Modeling Intern",
+        "detail": "Gained foundation knowledge in Project Finance and designed a financial model in Excel"
+      }
+    }
+  ]
+}
