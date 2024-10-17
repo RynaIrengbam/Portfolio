@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import streamlit.components.v1 as components
+import streamlit_timeline
 
 st.set_page_config('Ryna\'s Portfolio', layout='wide')
 st.header("Summary")
@@ -22,6 +23,10 @@ st.sidebar.download_button('Download Resume',pdfFileObj,file_name='RynaIrengbam_
 st.header("Education")
 df = {'Education':['MA Statistics','M.Sc Mathematics','B.Sc Mathematics'],'University':['Columbia University','University of Delhi','University of Delhi'],'Year':['2024-2025','2020-2022','2017-2020'],'CGPA':['','4.0','4.0']}
 st.table(df)
+
+with open('timeline.json', "r") as f: 
+       data = f.read()        
+timeline(data, height=500)
 
 st.header("Skills")
 columns = st.columns(6)
