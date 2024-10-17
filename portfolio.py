@@ -25,7 +25,7 @@ st.header("Education")
 df = {'Education':['MA Statistics','M.Sc Mathematics','B.Sc Mathematics'],'University':['Columbia University','University of Delhi','University of Delhi'],'Year':['2024-2025','2020-2022','2017-2020'],'CGPA':['','4.0','4.0']}
 st.table(df)
 
-with open('timeline.json', "r") as f: 
+with open('timeline.json', "wb") as f: 
        data = json.load(f)    
 st_timeline(data)
 
