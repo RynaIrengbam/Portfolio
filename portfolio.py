@@ -27,7 +27,7 @@ st.table(df)
 
 with open('timeline.json', "r") as f: 
        data = f.read()    
-st_timeline(data, height=500)
+st_timeline(data)
 
 st.header("Skills")
 columns = st.columns(6)
