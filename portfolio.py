@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 from PIL import Image
 import streamlit.components.v1 as components
-import streamlit_timeline
+from streamlit_timeline import timeline
 
 st.set_page_config('Ryna\'s Portfolio', layout='wide')
 st.header("Summary")
