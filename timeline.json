@@ -15,7 +15,7 @@
       },
       "text": {
         "headline": "Management Trainee",
-        "detail": "Assited US private clients in making key financial decisions by crafting Asset Summary Reports, reviewing third-party reports and analyzing market trends"
+        "text": "Assited US private clients in making key financial decisions by crafting Asset Summary Reports, reviewing third-party reports and analyzing market trends"
       }
     },
     {
@@ -33,7 +33,7 @@
       },
       "text": {
         "headline": "Data Analyst Intern",
-        "detail": "Developed a student dropout prediction app using Python and Streamlit to aid in early intervention strategies for at-risk students and designed analytical dashboards on PowerBI."
+        "text": "Developed a student dropout prediction app using Python and Streamlit to aid in early intervention strategies for at-risk students and designed analytical dashboards on PowerBI."
       }
     },
     {
@@ -51,7 +51,7 @@
       },
       "text": {
         "headline": "Financial Modeling Intern",
-        "detail": "Gained foundation knowledge in Project Finance and designed a financial model in Excel"
+        "text": "Gained foundation knowledge in Project Finance and designed a financial model in Excel"
       }
     }
   ]
