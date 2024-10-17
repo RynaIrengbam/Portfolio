@@ -3,6 +3,7 @@ import pandas as pd
 from PIL import Image
 import streamlit.components.v1 as components
 from streamlit_timeline import st_timeline
+import json
 
 st.set_page_config('Ryna\'s Portfolio', layout='wide')
 st.header("Summary")
@@ -25,7 +26,7 @@ df = {'Education':['MA Statistics','M.Sc Mathematics','B.Sc Mathematics'],'Unive
 st.table(df)
 
 with open('timeline.json', "r") as f: 
-       data = f.read()        
+       data = json.read(f)        
 st_timeline(data, height=500)
 
 st.header("Skills")
