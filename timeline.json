@@ -1,11 +1,11 @@
 {
   "events": [
     {
-      "start date": {
+      "start_date": {
         "month": "9",
         "year": "2022"
       },
-      "end date": {
+      "end_date": {
         "month": "5",
         "year": "2024"
       },
@@ -19,11 +19,11 @@
       }
     },
     {
-      "start date": {
+      "start_date": {
         "month": "4",
         "year": "2022"
       },
-      "end date": {
+      "end_date": {
         "month": "7",
         "year": "2022"
       },
@@ -37,11 +37,11 @@
       }
     },
     {
-      "start date": {
+      "start_date": {
         "month": "9",
         "year": "2019"
       },
-      "end date": {
+      "end_date": {
         "month": "11",
         "year": "2019"
       },
